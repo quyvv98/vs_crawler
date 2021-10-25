@@ -9,9 +9,9 @@ def convert_vietstock_2_entrade_data(stocks, symbol, resolution):
 
         entrade = {}
         entrade['timestamp'] = stocks['t'][index]
-        candle_time = datetime.fromtimestamp(stocks['t'][index])
+        candle_time = datetime.fromtimestamp(stocks['t'][index], tz=timezone.utc)
         entrade['time'] = datetime.strftime(candle_time, constant.DATE_TIME_FORMAT)
-        time_now = datetime.utcnow()
+        time_now = datetime.now()
         entrade['last_updated'] = int(datetime.timestamp(time_now))
         entrade['symbol'] = symbol
         entrade['resolution'] = resolution
@@ -21,7 +21,7 @@ def convert_vietstock_2_entrade_data(stocks, symbol, resolution):
         entrade['close'] = round(stocks['c'][index], 2)
         entrade['volume'] = round(stocks['v'][index], 2)
 
-        entrade_stocks.append(entrade)
+        entrade_stocks.insert(0, entrade)
     return entrade_stocks
 
 

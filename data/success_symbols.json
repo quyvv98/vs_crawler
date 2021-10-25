@@ -1,0 +1,366 @@
+{
+    "1": [
+        {
+            "symbol": "ACB",
+            "start": 1606445789,
+            "end": 1634871389,
+            "data_crawled": 40802
+        },
+        {
+            "symbol": "GVR",
+            "start": 1583463389,
+            "end": 1634871389,
+            "data_crawled": 69352
+        },
+        {
+            "symbol": "HPG",
+            "start": 1625799389,
+            "end": 1634871389,
+            "data_crawled": 14916
+        },
+        {
+            "symbol": "HDB",
+            "start": 1514516189,
+            "end": 1634871389,
+            "data_crawled": 159615
+        },
+        {
+            "symbol": "BID",
+            "start": 1389927389,
+            "end": 1634871389,
+            "data_crawled": 294260
+        },
+        {
+            "symbol": "KDH",
+            "start": 1318560989,
+            "end": 1634871389,
+            "data_crawled": 159688
+        },
+        {
+            "symbol": "GAS",
+            "start": 1336704989,
+            "end": 1634871389,
+            "data_crawled": 297034
+        },
+        {
+            "symbol": "BVH",
+            "start": 1318560989,
+            "end": 1634871389,
+            "data_crawled": 270316
+        },
+        {
+            "symbol": "FPT",
+            "start": 1318560989,
+            "end": 1634871389,
+            "data_crawled": 321914
+        },
+        {
+            "symbol": "CTG",
+            "start": 1318560989,
+            "end": 1634871389,
+            "data_crawled": 328827
+        },
+        {
+            "symbol": "SAB",
+            "start": 1480043611,
+            "end": 1634872411,
+            "data_crawled": 111322
+        },
+        {
+            "symbol": "POW",
+            "start": 1546571611,
+            "end": 1634872411,
+            "data_crawled": 122396
+        },
+        {
+            "symbol": "PLX",
+            "start": 1492139611,
+            "end": 1634872411,
+            "data_crawled": 172557
+        },
+        {
+            "symbol": "NVL",
+            "start": 1481858011,
+            "end": 1634872411,
+            "data_crawled": 178307
+        },
+        {
+            "symbol": "PDR",
+            "start": 1391138011,
+            "end": 1634872411,
+            "data_crawled": 190682
+        },
+        {
+            "symbol": "MWG",
+            "start": 1404443611,
+            "end": 1634872411,
+            "data_crawled": 228167
+        },
+        {
+            "symbol": "PNJ",
+            "start": 1318562011,
+            "end": 1634872411,
+            "data_crawled": 207820
+        },
+        {
+            "symbol": "MSN",
+            "start": 1318562011,
+            "end": 1634872411,
+            "data_crawled": 266717
+        },
+        {
+            "symbol": "SSI",
+            "start": 1318562011,
+            "end": 1634872411,
+            "data_crawled": 380282
+        },
+        {
+            "symbol": "MBB",
+            "start": 1319166811,
+            "end": 1634872411,
+            "data_crawled": 314238
+        },
+        {
+            "symbol": "TPB",
+            "start": 1522985463,
+            "end": 1634873463,
+            "data_crawled": 91720
+        },
+        {
+            "symbol": "VJC",
+            "start": 1487302264,
+            "end": 1634873464,
+            "data_crawled": 191220
+        },
+        {
+            "symbol": "VHM",
+            "start": 1525404664,
+            "end": 1634873464,
+            "data_crawled": 149757
+        },
+        {
+            "symbol": "VPB",
+            "start": 1501817464,
+            "end": 1634873464,
+            "data_crawled": 180596
+        },
+        {
+            "symbol": "VRE",
+            "start": 1509075064,
+            "end": 1634873464,
+            "data_crawled": 183524
+        },
+        {
+            "symbol": "TCB",
+            "start": 1527219063,
+            "end": 1634873463,
+            "data_crawled": 147122
+        },
+        {
+            "symbol": "VIC",
+            "start": 1318563064,
+            "end": 1634873464,
+            "data_crawled": 313614
+        },
+        {
+            "symbol": "VCB",
+            "start": 1318563064,
+            "end": 1634873464,
+            "data_crawled": 336112
+        },
+        {
+            "symbol": "VNM",
+            "start": 1318563064,
+            "end": 1634873464,
+            "data_crawled": 336775
+        },
+        {
+            "symbol": "STB",
+            "start": 1318563063,
+            "end": 1634873463,
+            "data_crawled": 302756
+        }
+    ],
+    "D": [
+        {
+            "symbol": "ACB",
+            "start": 390711559,
+            "end": 1634871559,
+            "data_crawled": 2493
+        },
+        {
+            "symbol": "GVR",
+            "start": 390711593,
+            "end": 1634871593,
+            "data_crawled": 895
+        },
+        {
+            "symbol": "HPG",
+            "start": 390711691,
+            "end": 1634871691,
+            "data_crawled": 2496
+        },
+        {
+            "symbol": "HDB",
+            "start": 390711756,
+            "end": 1634871756,
+            "data_crawled": 947
+        },
+        {
+            "symbol": "BID",
+            "start": 390712066,
+            "end": 1634872066,
+            "data_crawled": 1930
+        },
+        {
+            "symbol": "KDH",
+            "start": 390712091,
+            "end": 1634872091,
+            "data_crawled": 2496
+        },
+        {
+            "symbol": "GAS",
+            "start": 390712127,
+            "end": 1634872127,
+            "data_crawled": 2355
+        },
+        {
+            "symbol": "BVH",
+            "start": 390712129,
+            "end": 1634872129,
+            "data_crawled": 2496
+        },
+        {
+            "symbol": "FPT",
+            "start": 390712261,
+            "end": 1634872261,
+            "data_crawled": 2496
+        },
+        {
+            "symbol": "CTG",
+            "start": 390712399,
+            "end": 1634872399,
+            "data_crawled": 2496
+        },
+        {
+            "symbol": "SAB",
+            "start": 390712748,
+            "end": 1634872748,
+            "data_crawled": 1219
+        },
+        {
+            "symbol": "POW",
+            "start": 390712751,
+            "end": 1634872751,
+            "data_crawled": 903
+        },
+        {
+            "symbol": "PLX",
+            "start": 390712790,
+            "end": 1634872790,
+            "data_crawled": 1128
+        },
+        {
+            "symbol": "NVL",
+            "start": 390712840,
+            "end": 1634872840,
+            "data_crawled": 1203
+        },
+        {
+            "symbol": "PDR",
+            "start": 390712979,
+            "end": 1634872979,
+            "data_crawled": 2496
+        },
+        {
+            "symbol": "MWG",
+            "start": 390713012,
+            "end": 1634873012,
+            "data_crawled": 1820
+        },
+        {
+            "symbol": "PNJ",
+            "start": 390713152,
+            "end": 1634873152,
+            "data_crawled": 2496
+        },
+        {
+            "symbol": "MSN",
+            "start": 390713208,
+            "end": 1634873208,
+            "data_crawled": 2496
+        },
+        {
+            "symbol": "SSI",
+            "start": 390713448,
+            "end": 1634873448,
+            "data_crawled": 2496
+        },
+        {
+            "symbol": "MBB",
+            "start": 390713451,
+            "end": 1634873451,
+            "data_crawled": 2490
+        },
+        {
+            "symbol": "TPB",
+            "start": 390713772,
+            "end": 1634873772,
+            "data_crawled": 880
+        },
+        {
+            "symbol": "VJC",
+            "start": 390713876,
+            "end": 1634873876,
+            "data_crawled": 1165
+        },
+        {
+            "symbol": "VHM",
+            "start": 390713889,
+            "end": 1634873889,
+            "data_crawled": 863
+        },
+        {
+            "symbol": "VPB",
+            "start": 390713927,
+            "end": 1634873927,
+            "data_crawled": 1046
+        },
+        {
+            "symbol": "VRE",
+            "start": 390713932,
+            "end": 1634873932,
+            "data_crawled": 990
+        },
+        {
+            "symbol": "TCB",
+            "start": 390713965,
+            "end": 1634873965,
+            "data_crawled": 851
+        },
+        {
+            "symbol": "VIC",
+            "start": 390714297,
+            "end": 1634874297,
+            "data_crawled": 2496
+        },
+        {
+            "symbol": "VCB",
+            "start": 390714300,
+            "end": 1634874300,
+            "data_crawled": 2496
+        },
+        {
+            "symbol": "VNM",
+            "start": 390714392,
+            "end": 1634874392,
+            "data_crawled": 2496
+        },
+        {
+            "symbol": "STB",
+            "start": 390714448,
+            "end": 1634874448,
+            "data_crawled": 2496
+        }
+    ]
+}

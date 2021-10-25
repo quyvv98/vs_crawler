@@ -8,7 +8,9 @@ from helper import time_helper
 def mark_symbol_done(symbol, resolution, start, end, data_crawled):
     f = open('./data/success_symbols.json', "r")
     stocks = json.load(f)
-    symbol_status = [(i, x) for (i, x) in enumerate(stocks[resolution]) if x['symbol'] == symbol]
+    if resolution not in stocks:
+        stocks[resolution] = []
+    symbol_status = [i for (i, x) in enumerate(stocks[resolution]) if x['symbol'] == symbol]
     if len(symbol_status) > 0:
         index = symbol_status[0]
         stocks[resolution][index]({
@@ -16,7 +18,6 @@ def mark_symbol_done(symbol, resolution, start, end, data_crawled):
             "start": start,
             "end": end,
             "data_crawled": data_crawled,
-            "time": time_helper.get_current_time_str(constant.DATE_TIME_FORMAT)
         })
     else:
         stocks[resolution].append({
@@ -24,11 +25,9 @@ def mark_symbol_done(symbol, resolution, start, end, data_crawled):
             "start": start,
             "end": end,
             "data_crawled": data_crawled,
-            "time": time_helper.get_current_time_str(constant.DATE_TIME_FORMAT)
         })
 
     with open('./data/success_symbols.json', "w") as outfile:
-        # raw_data = json.dumps(stocks)
         outfile.write(json.dumps(stocks, indent=4))
 
 
@@ -72,3 +71,12 @@ def is_symbol_done(symbol, resolution, success_symbols=None):
         stocks = success_symbols
     is_existed = any(symbol == stock['symbol'] for stock in stocks[resolution])
     return is_existed
+
+def filter_resolution(symbol, resolutions, symbol_status):
+    unsuccess_symbols = []
+    for res in resolutions:
+        filter_symbols = [s for s in symbol_status[res] if s["symbol"] == symbol]
+        if filter_symbols == []:
+            unsuccess_symbols.append(symbol)
+
+    return unsuccess_symbols
