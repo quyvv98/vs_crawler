@@ -1,16 +1,15 @@
-import copy
 import json
-
-import constant
-from helper import time_helper
 
 
 def mark_symbol_done(symbol, resolution, start, end, data_crawled):
+    return
     f = open('./data/success_symbols.json', "r")
     stocks = json.load(f)
+    f.close()
     if resolution not in stocks:
         stocks[resolution] = []
-    symbol_status = [i for (i, x) in enumerate(stocks[resolution]) if x['symbol'] == symbol]
+    symbol_status = [i for (i, x) in enumerate(
+        stocks[resolution]) if x['symbol'] == symbol]
     if len(symbol_status) > 0:
         index = symbol_status[0]
         stocks[resolution][index]({
@@ -72,11 +71,12 @@ def is_symbol_done(symbol, resolution, success_symbols=None):
     is_existed = any(symbol == stock['symbol'] for stock in stocks[resolution])
     return is_existed
 
-def filter_resolution(symbol, resolutions, symbol_status):
-    unsuccess_symbols = []
-    for res in resolutions:
-        filter_symbols = [s for s in symbol_status[res] if s["symbol"] == symbol]
-        if filter_symbols == []:
-            unsuccess_symbols.append(symbol)
 
-    return unsuccess_symbols
+def filter_resolution(symbol, success_symbols):
+    unsuccessful_res = []
+    filter_symbols = [s for s in success_symbols
+                      if s["symbol"] == symbol]
+    if not filter_symbols:
+        unsuccessful_res.append(res)
+
+    return unsuccessful_res
